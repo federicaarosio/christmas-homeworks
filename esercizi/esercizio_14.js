@@ -7,4 +7,12 @@
  */
 
 let counter = 0;
-_;
+
+let interval = setInterval(() => {
+    counter += 1,
+    if (counter < 10) {
+    console.log(counter);
+    } else {
+        clearInterval(interval);
+    }
+    }, 2000);
