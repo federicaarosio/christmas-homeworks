@@ -1,0 +1,20 @@
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button, .counter {
+    height: 70px;
+    width: 70px;
+    border-radius: 50px;
+ }
+
+ button {
+    background-color: red;
+  }
+
+.counter {
+    border: 1px solid black;
+    margin-left: 8rem;
+    font-weight: bold;
+}
