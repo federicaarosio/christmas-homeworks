@@ -13,5 +13,6 @@ do {
     }
 } while (valore != 0);
 let numeriDistinti = 0;
-_
+numeriDistinti += valori.length;
+
 console.log(numeriDistinti);
