@@ -12,5 +12,11 @@
 
 const numero = parseInt(prompt("Scrivi un numero"));
 let grid = '';
-_
+
+for (let i = 0; i < numero; i++) {
+    for (let j = 0; j < numero; j++) {
+        (i != numero) ? grid += "#" : grid += "\n";
+        }
+    }    
+
 console.log(grid);
